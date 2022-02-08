@@ -17,4 +17,4 @@ jobs:
           server: '${{ secrets.SERVER_IP }}'
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }} 
           local_path: './*' 
-          remote_path: '/home/development'
+          remote_path: '/home/ubuntu/development'
