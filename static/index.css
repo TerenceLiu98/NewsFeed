@@ -1,0 +1,25 @@
+.card {
+    margin-top:1em; 
+    margin-bottom: 1em; 
+    border-radius: 10px;
+    background-color: rgb(196, 196, 196);
+}
+
+.card.up {
+    margin-top:1em; 
+    margin-bottom: 1em; 
+    border-radius: 10px;
+    background-color: rgb(214, 132, 132);
+}
+
+.card.down {
+    margin-top:1em; 
+    margin-bottom: 1em; 
+    border-radius: 10px;
+    background-color: rgb(143, 204, 223);
+}
+
+.card:hover {
+    box-shadow: 5px 6px 6px 2px #ebebeb;
+    transform: scale(1.02)
+}
