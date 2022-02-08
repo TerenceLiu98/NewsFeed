@@ -21,9 +21,16 @@ git clone https://github.com/TerenceLiu98/NewsFeed.git
 cd NewsFeed
 gunicorn --bind 0.0.0.0:5001 app:app
 ```
+## Web Interface
+
+### Article
+<img align="right" src="https://raw.githubusercontent.com/TerenceLiu98/NewsFeed/master/images/article.jpeg" width=100% />
+
+### Event
+<img align="left" src="https://raw.githubusercontent.com/TerenceLiu98/NewsFeed/master/images/event.jpeg" width=100% />
+
 
 ## Acknowledgement
 
 * [GDELT](https://www.gdeltproject.org/) - For data support
 * [Minimal-News](https://github.com/devansh016/Minimal-News) - For style reference
-
