@@ -81,7 +81,7 @@ class NewsSource(object):
                 return np.nan, np.nan
 
     def Articles(self):
-        self.gkg_nowtime = self.gkg_nowtime.sample(6)
+        self.gkg_nowtime = self.gkg_nowtime.sample(10)
         articles = pd.DataFrame({
             "country_info":
             self.gkg_nowtime["V2ENHANCEDLOCATIONS"].apply(

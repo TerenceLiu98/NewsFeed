@@ -30,7 +30,6 @@ def articles():
         articles_list.append({
             "title": list(title)[i],
             "country": list(articles.country_info)[i],
-            "summary": list(articles.summary)[i],
             "source": list(articles.source)[i],
             "url": list(articles.url)[i],
         })
