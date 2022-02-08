@@ -1,11 +1,14 @@
 import re
 import os
+ import nltk
 import html as ht
 import numpy as np
 import pandas as pd
 from newsfeed.news.db.events import *
 from newsfeed.news.db.gkg import *
 from newsfeed.utils import fulltext as ft
+
+nltk.download("punkt")
 
 
 class NewsSource(object):
