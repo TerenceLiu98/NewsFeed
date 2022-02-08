@@ -1,4 +1,7 @@
-<h1><img src="https://raw.githubusercontent.com/TerenceLiu98/NewsFeed/master/static/img/logo.png" width="10%" />  NewsFeed </h1>
+<img align="left" src="https://raw.githubusercontent.com/TerenceLiu98/NewsFeed/master/static/img/logo.png" width="10%" /> 
+
+# NewsFeed
+
 
 A minimal news webapp based on the [`Cyclododecene/newsfeed`](https://github.com/Cyclododecene/newsfeed) - *not open-source yet*
 
