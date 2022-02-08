@@ -21,6 +21,8 @@ git clone https://github.com/TerenceLiu98/NewsFeed.git
 cd NewsFeed
 gunicorn --bind 0.0.0.0:5001 app:app
 ```
+*CI/CD with GitHub Action*
+
 ## Web Interface
 
 ### Article
