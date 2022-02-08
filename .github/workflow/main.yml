@@ -1,0 +1,26 @@
+name: Continuous Deploy NewsFeed
+on: [push] 
+
+jobs:
+  deploy_job:
+    runs-on: ubuntu-latest
+    name: build
+    steps:
+      # check out the repository
+      - name: Checkout    
+        uses: actions/checkout@v2   
+
+      - name: Install Dependencies
+        run: yarn
+      - name: Build
+        run: yarn build
+
+      # 
+      - name: deploy file to server
+        uses: wlixcc/SFTP-Deploy-Action@v1.0 
+        with:  
+          username: 'ubuntu'   #ssh user name
+          server: '${{ secrets.SERVER_IP }}'
+          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }} 
+          local_path: './*' 
+          remote_path: '/home/development'
