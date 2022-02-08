@@ -22,3 +22,8 @@ cd NewsFeed
 gunicorn --bind 0.0.0.0:5001 app:app
 ```
 
+## Acknowledgement
+
+* [GDELT](https://www.gdeltproject.org/) - For data support
+* [Minimal-News](https://github.com/devansh016/Minimal-News) - For style reference
+
